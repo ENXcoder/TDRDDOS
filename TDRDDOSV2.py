@@ -136,13 +136,13 @@ if choice=="yes" or choice=="y":
         print("[!] Server Attack")
   for y in range(threads):
       if choice == 'yes' or "y":
-          th = threading.Thread(target = xxxx)
+          th = threading.Thread(target = A)
           th.start()
-          th = threading.Thread(target = xxx)
+          th = threading.Thread(target = B)
           th.start()
-          th = threading.Thread(target = xx)
+          th = threading.Thread(target = H)
           th.start()
-          th = threading.Thread(target = x)
+          th = threading.Thread(target = I)
           th.start()
 else:
   print("Fuck your mom nigga.")    
