@@ -117,7 +117,7 @@ if choice=="yes" or choice=="y":
             print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
       except:
         print("[!] Server Attack")
-    for y in range(threads):
+  for y in range(threads):
       if choice == 'yes' or "y":
           th = threading.Thread(target = xxxx)
           th.start()
